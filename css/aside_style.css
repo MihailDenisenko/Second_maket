@@ -14,14 +14,13 @@ body {
     height: auto;
     font-family: "TT_medium";
     font-size: 16px;
-    
-    /*  */
+    border: #989395 dashed 1px;
 }
 
 .main {
     width: 320px;
-    /* border: 1px darkgrey dashed; */
-    /* background-color: #f7f5f5; */
+    /* background-color: #989395; */
+
 }
 a {
     text-decoration: none;
@@ -37,8 +36,10 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 25px 10px 25px 0;
-    margin: 0;
+    padding: 25px 0px 25px 0;
+    margin: 1px;
+    margin-right: -1px;
+    border-right: #989395 dashed 1px;
    
 }
 
@@ -66,7 +67,6 @@ ul {
     background-repeat: no-repeat;
     border-radius: 0;
     background-image: url("../img/menu_logo/logo_1.png");
-    /* margin-right: auto; */
 }
 .nav__li:last-child {
     margin-left: 40px;
@@ -101,7 +101,6 @@ ul {
     padding: 0;
     margin:20px 0 20px 0;
     padding-left: 15px;
-    
 }
 
 .menu-ul__a {
@@ -114,8 +113,6 @@ ul {
     transition: all 0.7s;
     padding: auto;
     padding: 15px;
-    
-  
 }
 
     .menu-ul__a:hover::before {
@@ -127,15 +124,12 @@ ul {
         background-color: #41F6D7;
         position: absolute;
         left: 10px;
-        /* top: 0; */
-
 }
 
 .menu-ul__a:hover {
     text-shadow: .1px  0px  #989395; 
     padding-left: 10px 8px  0px 25px;
     margin: 0;
-    
     color: #989395;
     font-size: larger;
 }
@@ -144,25 +138,19 @@ ul {
     margin-bottom: 150px;
 }
 
-.other-menu {
-}
 .menu-div {
     display: flex;
     margin: 0 0 20px 15px;
     padding: 0;
- 
-    
-}
+ }
 
 .menu-div__a {
     position: relative;
 }
 .menu-div__img {
     transition: all .5s;    
-
     position: absolute;
     padding: 15px;
-    /* background-color: #696466; */
     top: -5px;
     left: -5px;
 }
@@ -170,8 +158,6 @@ ul {
 .menu-div__img:hover {
     transform: scale(1.2);
 }
-
-
 
 .div-menu {
    margin: 15px 15px; 
@@ -182,6 +168,11 @@ ul {
 
 .span__phone {
     font-family: "TT_bold";
+    text-decoration: black;
+}
+
+.span__phone, .span__email {
+    color: black;
 }
 
 .div-lang__a:hover {
