@@ -10,6 +10,8 @@
 
 body {
     position: absolute;
+    left: 0;
+    top: 0;
     width: 320px;
     height: auto;
     font-family: "TT_medium";
